@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "key-event-lib",
+  "version": "${version}",
+  "name": "Key Event Lib",
+  "description": "Library for my mods",
+  "authors": [
+    "Samuel Bertrand"
+  ],
+  "contact": {
+    "sources": "https://github.com/BertSa/KeyRventLib"
+  },
+  "license": "MIT",
+  "icon": "assets/key-event-lib/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
