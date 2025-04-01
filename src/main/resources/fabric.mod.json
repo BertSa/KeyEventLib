@@ -10,10 +10,17 @@
   "contact": {
     "sources": "https://github.com/BertSa/KeyRventLib"
   },
+  "provide": [
+    "keyeventlib"
+  ],
   "license": "MIT",
   "icon": "assets/key-event-lib/icon.png",
   "environment": "client",
-  "entrypoints": {},
+  "entrypoints": {
+    "client": [
+      "ca.bertsa.keyeventlib.client.KeyEventLibClient"
+    ]
+  },
   "depends": {
     "fabricloader": ">=0.16.10",
     "minecraft": "~1.21.4",

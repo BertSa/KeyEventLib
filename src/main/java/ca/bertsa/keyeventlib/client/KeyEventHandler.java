@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.function.Function;
 
+
 public abstract class KeyEventHandler {
     private static final int LAST_HOTBAR_SLOT_INDEX = 8;
     private static final int PLAYER_INVENTORY_SLOT_COUNT_WITHOUT_EQUIPMENT_AND_CRAFTING_SLOTS = 36;
